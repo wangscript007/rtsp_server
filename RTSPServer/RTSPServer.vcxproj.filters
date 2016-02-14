@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="interface">
+      <UniqueIdentifier>{f7701f45-283a-4c69-84c6-2cb9433bbc2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="interface.cpp">
+      <Filter>interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rtspClientSession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rtspServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rtspSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="rtspStream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rtsp_server_api.h">
+      <Filter>interface</Filter>
+    </ClInclude>
+    <ClInclude Include="x264_config.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rtpHeader.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rtspClientSession.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rtspProfileHeader.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rtspServer.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rtspSocket.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rtspStream.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="x264.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
